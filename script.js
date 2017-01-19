@@ -1,10 +1,11 @@
 function submitFunction(){
     // creating div
   var div1 = document.getElementById('div1'); 
+  var body = document.getElementsByTagName('body')[0];
   var div1Element = document.createElement('div');
   div1Element.setAttribute('class','div1Css');
 //   div1Element.setAttribute('class','div1Extra'); // it is for extra css
-  div1.appendChild(div1Element);
+  body.appendChild(div1Element);
 
 //   creating another p element than put this p in the div
 //   in this portion we take value from input and then make a
@@ -30,8 +31,6 @@ function submitFunction(){
 
 }
 
-
 function removeButtonFunction(){
-      var textDivBox = document.getElementById('textDiv'); 
-      textDivBox.parentNode.removeChild();    
+      $(this.pa).remove();
   }

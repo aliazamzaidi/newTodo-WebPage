@@ -27,12 +27,14 @@ body{
     max-width: 120em;
     border:1px solid grey;
     border-radius: 3px;
-    min-width: 50em;
+    min-width: 60em;
+    height: 1.93em;
 }
 
 .btnSubmit{
     border:0px solid grey;
     border-radius: 3px;
+    font-size: 1.3em;
 }
 
 #removeBtn{
@@ -53,5 +55,5 @@ body{
 
 .div1Css p{
     display: inline;
-    margin-top: 3em;
+    padding-top: 3em;
 }
